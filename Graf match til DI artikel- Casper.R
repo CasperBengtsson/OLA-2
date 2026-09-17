@@ -60,7 +60,7 @@ ggplot(plot_data, aes(x = quarter)) +
   labs(
     title = "DI's Forbrugertillidsindikator & Privatforbrug",
     subtitle = "Forsøg på at matche artiklen",
-    caption = "Udarbejdet i R",
+    caption = "Udarbejdet i R med data fra Danmarkstatistik",
     x = NULL
   ) +
   theme_minimal(base_size = 12) +
